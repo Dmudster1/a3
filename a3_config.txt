@@ -1,0 +1,40 @@
+###########################
+##   File Name: config.txt
+###########################  
+Programmer=John Smith
+Email=jsmith@miamioh.edu
+SeqFileName=gene.1.fa
+GeneExpFileName=cancer_lung_prostate_expression.6.txt
+
+###########################
+##   1. Display Mode
+###########################
+ViewSequenceInFastaFormat[Y|N]=Y
+DoYouNeedSpaceSeperator[Y|N]=Y
+NucleotidesPerLine[50|100]=100
+  
+###########################
+##   2. Analysis Mode
+###########################
+nucleotideCounter[Y|N]=N
+gcContent[Y|N]=N
+dinucleotideProfil[Y|N]=N
+CpGIsland[Y|N]=N
+codonProfile[Y|N]=Y
+translation6Frames[Y|N]=Y
+geneExp[Y|N]=Y
+homopolymerSearch[Y|N]=Y
+motifSearch[Y|N]=Y
+motifSearchTarget=TATA
+alignment[Y|N]=Y
+match=2
+mismatch=-1
+gap=-2
+PositionMatrix[Y|N]=Y
+
+###########################
+##   3. Inquiry Mode
+###########################
+SelectedSeqs=1,2,3,4
+SeqFragmentStartPosition=19
+SeqFragmentEndPostion=48
